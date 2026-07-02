@@ -1,5 +1,4 @@
 import tkinter as tk
-
 def click(v):
     if v=='=':
         try:
@@ -11,7 +10,7 @@ def click(v):
     else:
         e.set(e.get()+v)
 
-r=tk.Tk();r.title('Python Calculator')
+r=tk.Tk();r.title('Python CalPro')
 e=tk.StringVar()
 tk.Entry(r,textvariable=e,font=('Arial',18),justify='right').grid(row=0,column=0,columnspan=4)
 buttons=['7','8','9','/','4','5','6','*','1','2','3','-','C','0','=','+']
